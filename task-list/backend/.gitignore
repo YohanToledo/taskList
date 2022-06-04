@@ -1,5 +1,13 @@
 HELP.md
-target/
+
+#only permits target/spring.boot-docker.jar archive
+target/generated-sources
+target/generated-test-sources
+target/maven-archiver
+target/maven-status
+target/surefire-reports
+
+
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/

@@ -31,6 +31,4 @@ public class UserController {
     	service.saveUser(user);
     	return ResponseEntity.ok().body(user);
 	}
-	
-	
 }
